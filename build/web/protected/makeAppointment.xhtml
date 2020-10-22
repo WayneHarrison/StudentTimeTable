@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Appointment Creator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </h:head>
+    <body>
+        <h:form>
+            <h:panelGrid columns="2">
+                <p><b>StudentID:</b><br/>(max. 2 characters)</p>
+                <h:inputText value="#{appointmentBean.studentID}"
+                             maxlength="2" 
+                             required="true"
+                             requiredMessage="Please input a studentID" />
+                <p><b>StaffID:</b><br/>(max. 2 characters)</p>
+                <h:inputText value="#{appointmentBean.staffID}"
+                             maxlength="2" 
+                             required="true"
+                             requiredMessage="Please input your staffID" />   
+                <p><b>Date:</b><br/>(max. 10 characters)</p>
+                <h:inputText value="#{appointmentBean.date}"
+                             maxlength="10" 
+                             required="true"
+                             requiredMessage="Please enter a date" />   
+                <p><b>Time:</b><br/>(max. 5 characters)</p>
+                <h:inputText value="#{appointmentBean.time}"
+                             maxlength="5" 
+                             required="true"
+                             requiredMessage="Enter A Time" />
+
+                <p><b>Room:</b><br/>(max. 4 characters)</p>
+                <h:inputText value="#{appointmentBean.room}"
+                             maxlength="4" 
+                             required="true"
+                             requiredMessage="Enter A Room" />
+            </h:panelGrid>
+            <h:commandButton value="Submit" action="#{appointmentBean.makeAppointment()}" />&nbsp;&nbsp;
+            <h:commandButton type="reset" value="Reset" />
+
+
+        </h:form>
+    </body>
+</html>

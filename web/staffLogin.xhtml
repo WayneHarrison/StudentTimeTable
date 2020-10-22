@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>Staff Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h:form>
+            <h:panelGrid columns="2">
+                <p><b>Username:</b><br/>(max. 10 characters)</p>
+                <h:inputText value="#{staffLoginBean.username}"
+                             maxlength="10" 
+                             required="true"
+                             requiredMessage="Enter your username" />
+                <p><b>Your password:</b><br/>(max. 25 characters)</p>
+                <h:inputSecret value="#{staffLoginBean.password1}"
+                             maxlength="100" 
+                             required="true"
+                             requiredMessage="Enter A Password" />
+            </h:panelGrid>
+            <h:commandButton value="Submit" action="#{staffLoginBean.login()}" />&nbsp;&nbsp;
+            <h:commandButton type="reset" value="Reset" />
+
+
+        </h:form>
+    </body>
+</html>

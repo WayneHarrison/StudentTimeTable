@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>Staff Homes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+        <META HTTP-EQUIV="EXPIRES" CONTENT="-1" />
+    </head>
+    <body>
+        <h:form>
+            <h1>Appointments</h1>
+            <p><h:commandButton value="Make Appointment" action="makeAppointment" />&nbsp;&nbsp;</p>   
+            <h:dataTable value="#{viewAppointmentBean.appointments}"
+                         var="allAppointments"
+                         >
+                <h:column>
+                    <p>Appointment ID</p>&nbsp;&nbsp;
+                    <h:outputText value="#{allAppointments.appointmentID}" />&nbsp;&nbsp;
+                </h:column>
+                <h:column>
+                    <p>Student ID</p>&nbsp;&nbsp;
+                    <h:outputText value="#{allAppointments.studentID}" />&nbsp;&nbsp;
+                </h:column>
+                <h:column>
+                    <p>Room</p>&nbsp;&nbsp;
+                    <h:outputText value="#{allAppointments.room}" />&nbsp;&nbsp;
+                </h:column>
+                <h:column>
+                    <p>Time</p>&nbsp;&nbsp;
+                    <h:outputText value="#{allAppointments.time}" />&nbsp;&nbsp;
+                </h:column>
+                <h:column>
+                    <p>Date</p>&nbsp;&nbsp;
+                    <h:outputText value="#{allAppointments.date}" />&nbsp;&nbsp;
+                </h:column>
+                <h:column>
+                    <p>Actions</p>
+                    <h:commandButton value="Change" action="#{viewAppointmentBean.getAppointment(allAppointments.appointmentID)}"/>&nbsp;&nbsp;
+                    <h:commandButton value="Delete" action="#{deleteAppointmentBean.deleteAppointment(allAppointments.appointmentID)}"/>
+                </h:column>
+            </h:dataTable>
+        </h:form>
+        <h:form>
+            <h:commandButton value="Logout" action="#{staffLoginBean.logout()}"/>
+        </h:form>
+    </body>
+</html>

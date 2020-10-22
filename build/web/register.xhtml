@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>Register</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h:form>
+            <h:panelGrid columns="2">
+                <p><b>Username:</b><br/>(max. 10 characters)</p>
+                <h:inputText value="#{registerBean.username}"
+                             maxlength="10" 
+                             required="true"
+                             requiredMessage="Please Choose A UserName" />
+                <p><b>Your name:</b><br/>(max. 30 characters)</p>
+                <h:inputText value="#{registerBean.name}"
+                             maxlength="30" 
+                             required="true"
+                             requiredMessage="Please Enter Your Name" />    
+                <p><b>Your age:</b><br/>(max. 2 characters)</p>
+                <h:inputText value="#{registerBean.age}"
+                             maxlength="2" 
+                             required="true"
+                             requiredMessage="Please Enter Your Age" />   
+                <p><b>Password:</b><br/>(max. 25 characters)</p>
+                <h:inputSecret value="#{registerBean.password1}"
+                             maxlength="100" 
+                             required="true"
+                             requiredMessage="Enter A Password" />
+
+                <p><b>Confirm password:</b><br/>(max. 25 characters)</p>
+                <h:inputSecret value="#{registerBean.password2}"
+                             maxlength="100" 
+                             required="true"
+                             requiredMessage="Confirm Your Password" />
+            </h:panelGrid>
+            <h:commandButton value="Submit" action="#{registerBean.register()}" />&nbsp;&nbsp;
+            <h:commandButton type="reset" value="Reset" />
+
+
+        </h:form>
+    </body>
+</html>

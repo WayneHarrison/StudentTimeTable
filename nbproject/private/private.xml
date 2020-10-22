@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/studentUI/StudentCommandFactoryTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/src/java/appointmentUI/GetStuAppointmentsCommand.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/staffUI/StaffCommandFactoryTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/src/java/staffUI/DoLoginCommand.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/src/java/studentUI/StudentCommandFactory.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/appointmentUI/MakeAppointmentCommandTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/staffUI/DoLoginCommandTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/appointmentUI/GetStuAppointmentsCommandTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/staffUI/DoRegisterCommandTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/appointmentUI/GetAppointmentCommandTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/studentUI/DoRegisterCommandTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/src/java/studentUI/DoRegisterCommand.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/src/java/dto/StudentDTO.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/src/java/managedbean/ChangeAppointmentBean.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/src/java/appointmentUI/MakeAppointmentCommand.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/src/java/manager/StudentManager.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/appointmentUI/GetAppointmentsCommandTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/studentUI/DoLoginCommandTest.java</file>
+            <file>file:/C:/.Uni%20Work/Uni%20Stuff/MSc/Enterprise%20Software%20Engineering/Assignment%20Project/StudentTimeTables/test/appointmentUI/ChangeAppointmentCommandTest.java</file>
+        </group>
+    </open-files>
+</project-private>
